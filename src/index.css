@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .tool-gradient {
+    background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+  }
+}
